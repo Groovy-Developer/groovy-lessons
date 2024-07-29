@@ -1,0 +1,1487 @@
+﻿{
+  "paragraphs": [
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691102078575_1744496057",
+      "id": "paragraph_1691102078575_1744496057",
+      "dateCreated": "2023-08-03T22:34:38+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:797",
+      "text": "- Является си-подобным языком\n- Используются блоки кода, отделяемые фигурными скобками {}\n- Окончание инструкций - ;\n- ; не является обязательной\n- есть различные виды комментариев как в java",
+      "dateUpdated": "2023-08-03T22:38:11+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691102191749_1585793176",
+      "id": "paragraph_1691102191749_1585793176",
+      "dateCreated": "2023-08-03T22:36:31+0000",
+      "status": "ERROR",
+      "focus": true,
+      "$$hashKey": "object:866",
+      "text": "// one line\n/*\n* multy line\n*/\n/**\n* javadoc\n*/\n{\n// some block code\n}",
+      "dateUpdated": "2023-08-03T22:37:56+0000",
+      "dateFinished": "2023-08-03T22:37:31+0000",
+      "dateStarted": "2023-08-03T22:37:31+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691101567980_1312907020",
+      "id": "paragraph_1691101567980_1312907020",
+      "dateCreated": "2023-08-03T22:26:07+0000",
+      "status": "ERROR",
+      "focus": true,
+      "$$hashKey": "object:316",
+      "text": "- динамическая и статическая типизация\n- ключевое слово def\n- в скриптах можно без ключевого слова",
+      "dateUpdated": "2023-08-03T22:32:23+0000",
+      "dateFinished": "2023-08-03T22:29:56+0000",
+      "dateStarted": "2023-08-03T22:29:54+0000",
+      "title": "Переменные",
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "java.lang.RuntimeException: Failed to parse groovy script: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nparagraph_1691101567980_1312907020_19980650.groovy: 2: expecting EOF, found 'и' @ line 2, column 16.\n   - динамическая и статическая типизация\n                  ^\norg.codehaus.groovy.syntax.SyntaxException: expecting EOF, found 'и' @ line 2, column 16.\n\tat org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:143)\n\tat org.codehaus.groovy.antlr.AntlrParserPlugin.parseCST(AntlrParserPlugin.java:111)\n\tat org.codehaus.groovy.control.SourceUnit.parse(SourceUnit.java:237)\n\tat org.codehaus.groovy.control.CompilationUnit$1.call(CompilationUnit.java:167)\n\tat org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:931)\n\tat org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:593)\n\tat org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)\n\tat org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)\n\tat groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)\n\tat groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)\n\tat groovy.lang.GroovyShell.parseClass(GroovyShell.java:688)\n\tat groovy.lang.GroovyShell.parse(GroovyShell.java:700)\n\tat groovy.lang.GroovyShell.parse(GroovyShell.java:736)\n\tat org.apache.zeppelin.groovy.GroovyInterpreter.getGroovyScript(GroovyInterpreter.java:132)\n\tat org.apache.zeppelin.groovy.GroovyInterpreter.interpret(GroovyInterpreter.java:154)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.interpret(LazyOpenInterpreter.java:110)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:849)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:741)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:172)\n\tat org.apache.zeppelin.scheduler.AbstractScheduler.runJob(AbstractScheduler.java:132)\n\tat org.apache.zeppelin.scheduler.ParallelScheduler.lambda$runJobInScheduler$0(ParallelScheduler.java:46)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\nCaused by: paragraph_1691101567980_1312907020_19980650.groovy:2:16: expecting EOF, found 'и'\n\tat groovyjarjarantlr.Parser.match(Parser.java:211)\n\tat org.codehaus.groovy.antlr.parser.GroovyRecognizer.compilationUnit(GroovyRecognizer.java:781)\n\tat org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:134)\n\t... 23 more\n\n1 error\n\n at org.apache.zeppelin.groovy.GroovyInterpreter.getGroovyScript(GroovyInterpreter.java:139)"
+          }
+        ]
+      }
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691101782696_633109248",
+      "id": "paragraph_1691101782696_633109248",
+      "dateCreated": "2023-08-03T22:29:42+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:383",
+      "text": "def a\ndef b = 5\nprintln a\nprintln b",
+      "dateUpdated": "2023-08-03T22:30:59+0000",
+      "dateFinished": "2023-08-03T22:30:59+0000",
+      "dateStarted": "2023-08-03T22:30:59+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "null\n5\n"
+          }
+        ]
+      }
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691101809340_1778105180",
+      "id": "paragraph_1691101809340_1778105180",
+      "dateCreated": "2023-08-03T22:30:09+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:512",
+      "text": "c = 5\nprintln c",
+      "dateUpdated": "2023-08-03T22:31:16+0000",
+      "dateFinished": "2023-08-03T22:31:16+0000",
+      "dateStarted": "2023-08-03T22:31:16+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "5\n"
+          }
+        ]
+      }
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691104507033_1788565591",
+      "id": "paragraph_1691104507033_1788565591",
+      "dateCreated": "2023-08-03T23:15:07+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:3910",
+      "text": "def var = 1\r\nassert var.class in java.lang.Integer\r\nvar = 'Hello World'    \r\nassert var.class in java.lang.String",
+      "dateUpdated": "2023-08-03T23:15:53+0000",
+      "title": "Динамическая типизация"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691101876823_1570188895",
+      "id": "paragraph_1691101876823_1570188895",
+      "dateCreated": "2023-08-03T22:31:16+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:668",
+      "text": "- можно не указывать тип возвращаемого значения\n- можно не использовать ключевое слово return\n- можно не указывать типы аргументов\n\n! в отличие от python - только позиционные аргументы. Почему?",
+      "dateUpdated": "2023-08-03T22:34:21+0000",
+      "title": "Методы"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691102297046_1014060420",
+      "id": "paragraph_1691102297046_1014060420",
+      "dateCreated": "2023-08-03T22:38:17+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:974",
+      "text": "def foo() {\n    5\n}\n\nprintln foo()",
+      "dateUpdated": "2023-08-03T22:38:52+0000",
+      "dateFinished": "2023-08-03T22:38:52+0000",
+      "dateStarted": "2023-08-03T22:38:52+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691104787799_912928244",
+      "id": "paragraph_1691104787799_912928244",
+      "dateCreated": "2023-08-03T23:19:47+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:4318",
+      "text": "def getPi(){\r\n     3.14     \r\n}\r\nassert getPi() in BigDecimal\r\nassert getPi() == 3.14",
+      "dateUpdated": "2023-08-03T23:19:51+0000",
+      "dateFinished": "2023-08-03T23:19:51+0000",
+      "dateStarted": "2023-08-03T23:19:51+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      }
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691102332790_246005919",
+      "id": "paragraph_1691102332790_246005919",
+      "dateCreated": "2023-08-03T22:38:52+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:1049",
+      "text": "def foo() {\n    5\n}\nprintln foo",
+      "dateUpdated": "2023-08-03T22:40:53+0000",
+      "dateFinished": "2023-08-03T22:40:48+0000",
+      "dateStarted": "2023-08-03T22:40:48+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691102400005_84834461",
+      "id": "paragraph_1691102400005_84834461",
+      "dateCreated": "2023-08-03T22:40:00+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:1153",
+      "text": "def foo(a, b) {\n    a+b\n}\n\nfoo 1 2",
+      "dateUpdated": "2023-08-03T22:45:07+0000",
+      "dateFinished": "2023-08-03T22:44:50+0000",
+      "dateStarted": "2023-08-03T22:44:50+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      }
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691102513324_1960232119",
+      "id": "paragraph_1691102513324_1960232119",
+      "dateCreated": "2023-08-03T22:41:53+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:1298",
+      "text": "Когда можно не использовать скобки?\nOmitting parentheses: http://www.groovy-lang.org/style-guide.html#_omitting_parentheses ",
+      "dateUpdated": "2023-08-03T22:46:21+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691102783756_748297783",
+      "id": "paragraph_1691102783756_748297783",
+      "dateCreated": "2023-08-03T22:46:23+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:1671",
+      "text": "def foo(a) {a}\nprintln foo 2 ",
+      "dateUpdated": "2023-08-03T22:47:04+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691102846857_68999935",
+      "id": "paragraph_1691102846857_68999935",
+      "dateCreated": "2023-08-03T22:47:26+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:1740",
+      "text": "В groovy sdk встроена библиотека assertj (из junit)\n\nУпражнение: какие есть возможности для сравнения в Groovy?",
+      "dateUpdated": "2023-08-03T22:50:39+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691102903098_17577887",
+      "id": "paragraph_1691102903098_17577887",
+      "dateCreated": "2023-08-03T22:48:23+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:1809",
+      "text": "def a = 15\r\nassert a == '15'\r\nassert a == Integer.parseInt('15')\r\n",
+      "dateUpdated": "2023-08-03T22:50:00+0000",
+      "dateFinished": "2023-08-03T22:49:54+0000",
+      "dateStarted": "2023-08-03T22:49:54+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      }
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691103079961_2118235205",
+      "id": "paragraph_1691103079961_2118235205",
+      "dateCreated": "2023-08-03T22:51:19+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:2121",
+      "text": "Вопрос: почему так можно сделать?",
+      "dateUpdated": "2023-08-03T22:51:39+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691102929531_291107856",
+      "id": "paragraph_1691102929531_291107856",
+      "dateCreated": "2023-08-03T22:48:49+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:1890",
+      "text": "def a = 1\r\na = 'Hello World'\r\n",
+      "dateUpdated": "2023-08-03T22:51:12+0000",
+      "dateFinished": "2023-08-03T22:51:12+0000",
+      "dateStarted": "2023-08-03T22:51:12+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      }
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691103058702_1656210734",
+      "id": "paragraph_1691103058702_1656210734",
+      "dateCreated": "2023-08-03T22:50:58+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:2027",
+      "dateUpdated": "2023-08-03T23:03:37+0000",
+      "title": "Диапазоны",
+      "text": "Диапазоны (ranges) - это последовательность с началом и концом\n\nhttps://www.logicbig.com/tutorials/misc/groovy/range-operator.html"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691103160534_491458499",
+      "id": "paragraph_1691103160534_491458499",
+      "dateCreated": "2023-08-03T22:52:40+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:2221",
+      "text": "def range = 5..10;\r\nprintln(range);\r\nprintln(range.get(2));\r\n",
+      "dateUpdated": "2023-08-03T22:52:45+0000",
+      "dateFinished": "2023-08-03T22:52:45+0000",
+      "dateStarted": "2023-08-03T22:52:45+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "[5, 6, 7, 8, 9, 10]\n7\n"
+          }
+        ]
+      }
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691104706329_1993048488",
+      "id": "paragraph_1691104706329_1993048488",
+      "dateCreated": "2023-08-03T23:18:26+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:4149",
+      "text": "//Using a range with each method\r\n(1..5).each{println it}",
+      "dateUpdated": "2023-08-03T23:18:30+0000",
+      "dateFinished": "2023-08-03T23:18:30+0000",
+      "dateStarted": "2023-08-03T23:18:30+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "1\n2\n3\n4\n5\n"
+          }
+        ]
+      }
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691103165481_2080743313",
+      "id": "paragraph_1691103165481_2080743313",
+      "dateCreated": "2023-08-03T22:52:45+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:2296",
+      "text": "Упражнение: Создать диапазоны чисел от 1 до 10, символов от a до c.",
+      "dateUpdated": "2023-08-03T22:53:25+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691103205299_1353834350",
+      "id": "paragraph_1691103205299_1353834350",
+      "dateCreated": "2023-08-03T22:53:25+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:2381",
+      "text": "Упражнение: Что будет результатом?",
+      "dateUpdated": "2023-08-03T22:53:56+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691103236198_857370833",
+      "id": "paragraph_1691103236198_857370833",
+      "dateCreated": "2023-08-03T22:53:56+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:2450",
+      "text": "println(1 ..< 10)",
+      "dateUpdated": "2023-08-03T22:54:55+0000",
+      "dateFinished": "2023-08-03T22:54:55+0000",
+      "dateStarted": "2023-08-03T22:54:55+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691103276549_156081743",
+      "id": "paragraph_1691103276549_156081743",
+      "dateCreated": "2023-08-03T22:54:36+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:2525",
+      "text": "Упражнение: Диапазоны как индексы",
+      "dateUpdated": "2023-08-03T22:55:21+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691103321290_1683796564",
+      "id": "paragraph_1691103321290_1683796564",
+      "dateCreated": "2023-08-03T22:55:21+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:2638",
+      "text": "a = [1, 2, 3, 4, 5]\r\na[0..2] = ?\r\n",
+      "dateUpdated": "2023-08-03T22:55:39+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691103339502_348232229",
+      "id": "paragraph_1691103339502_348232229",
+      "dateCreated": "2023-08-03T22:55:39+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:2707",
+      "text": "Упражнение: В чем разница*?\n[1..3]\n[*1..3] - секционирование (slicing)",
+      "dateUpdated": "2023-08-03T22:56:26+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691103366247_2030645430",
+      "id": "paragraph_1691103366247_2030645430",
+      "dateCreated": "2023-08-03T22:56:06+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:2776",
+      "text": "println([1..3])\nprintln([*1..3])",
+      "dateUpdated": "2023-08-03T23:00:18+0000",
+      "dateFinished": "2023-08-03T23:00:18+0000",
+      "dateStarted": "2023-08-03T23:00:18+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "[1..3]\n[1, 2, 3]\n"
+          }
+        ]
+      }
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691104722610_161893683",
+      "id": "paragraph_1691104722610_161893683",
+      "dateCreated": "2023-08-03T23:18:42+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:4240",
+      "text": "//Using a range to create a list (slicing)\r\nassert [*1..4] == [1,2,3,4]\r\nassert [1,*2..4] == [1,2,3,4]",
+      "dateUpdated": "2023-08-03T23:19:10+0000",
+      "dateFinished": "2023-08-03T23:19:10+0000",
+      "dateStarted": "2023-08-03T23:19:10+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      }
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691103406948_1019219826",
+      "id": "paragraph_1691103406948_1019219826",
+      "dateCreated": "2023-08-03T22:56:46+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:2851",
+      "text": "def list = ['Java', 'Groovy', 'Scala']\r\n\r\ndef index = 0\r\ndef indices = [0,2]\r\ndef range = (1..-1)\r\n\r\nassert 'Java' == list[index]\r\nassert ['Java', 'Scala'] == list[indices]\r\nassert ['Groovy', 'Scala'] == list[range]",
+      "dateUpdated": "2023-08-03T23:01:50+0000",
+      "dateFinished": "2023-08-03T23:01:50+0000",
+      "dateStarted": "2023-08-03T23:01:50+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      }
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691103641522_682965255",
+      "id": "paragraph_1691103641522_682965255",
+      "dateCreated": "2023-08-03T23:00:41+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:2989",
+      "dateUpdated": "2023-08-03T23:06:48+0000",
+      "title": "Условия и циклы",
+      "text": "Тернарный оператор\n<condition>?<result_true>:<result_false> \nElvis оператор\n<condition>?:<result_false> "
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691103928906_96915256",
+      "id": "paragraph_1691103928906_96915256",
+      "dateCreated": "2023-08-03T23:05:28+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:3151",
+      "text": "// Groovy with the Elvis operator\r\nString test = null\r\nString result2 = test ?: new String()\r\n\r\n// Java version\r\nString user = null;\r\nString result1 = user!=null ? user : new String();\r\n",
+      "dateUpdated": "2023-08-03T23:05:50+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691104008994_1446435028",
+      "id": "paragraph_1691104008994_1446435028",
+      "dateCreated": "2023-08-03T23:06:48+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:3220",
+      "text": "Упражнение: результат switch-case",
+      "dateUpdated": "2023-08-03T23:07:40+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691104060846_255790000",
+      "id": "paragraph_1691104060846_255790000",
+      "dateCreated": "2023-08-03T23:07:40+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:3289",
+      "text": "x = 'Groovy'\r\ndef result = ''\r\nswitch (x){\r\n    case ['1','2','3']: result = 'List'\r\n    case Integer: result = 'Integer'\r\n    case 'Groovy': result = 'String'\r\n    case 'G'..'Y': result = 'Range'\r\n    case ~/G.*/: result = 'Pattern'; break\r\n    default: result = 'Default'\r\n}\r\nprintln(result)",
+      "dateUpdated": "2023-08-03T23:07:59+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691104079422_1882181651",
+      "id": "paragraph_1691104079422_1882181651",
+      "dateCreated": "2023-08-03T23:07:59+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:3358",
+      "dateUpdated": "2023-08-03T23:08:37+0000",
+      "title": "Циклы",
+      "text": "int[] array = [0,1,2,3]; \r\nfor(int i in array) { \r\n    println(i); \r\n} \r\n\r\nfor(int i in 1..5) {\r\n    println(i);\r\n}\r\n\r\ndef employee = [\"Ken\" : 21, \"John\" : 25, \"Sally\" : 22];\r\nfor(emp in employee) {\r\n    println(emp);\r\n}\r\n"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691104122182_470064013",
+      "id": "paragraph_1691104122182_470064013",
+      "dateCreated": "2023-08-03T23:08:42+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:3433",
+      "dateUpdated": "2023-08-03T23:10:05+0000",
+      "title": "Числа и операторы",
+      "text": "- все есть объекты\n- возможно переопределения операторов\n- \"бесшовное\" преобразование типов (почти)\n"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691104205262_2046950181",
+      "id": "paragraph_1691104205262_2046950181",
+      "dateCreated": "2023-08-03T23:10:05+0000",
+      "status": "ERROR",
+      "focus": true,
+      "$$hashKey": "object:3593",
+      "text": "assert 3 + null == 3\r\nassert 3 > null",
+      "dateUpdated": "2023-08-03T23:10:26+0000",
+      "dateFinished": "2023-08-03T23:10:26+0000",
+      "dateStarted": "2023-08-03T23:10:26+0000",
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method java.lang.Integer#plus.\nCannot resolve which method to invoke for [null] due to overlapping prototypes between:\n\t[class java.lang.Character]\n\t[class java.lang.String]\n\t[class java.lang.Number]\n at paragraph_1691104205262_2046950181_ffffffffd1c9f5e3.run(paragraph_1691104205262_2046950181_ffffffffd1c9f5e3.groovy:1)"
+          }
+        ]
+      }
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691104205242_1703002816",
+      "id": "paragraph_1691104205242_1703002816",
+      "dateCreated": "2023-08-03T23:10:05+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:3524",
+      "text": "Оператор безопасного доступа (null safe)\n?.",
+      "dateUpdated": "2023-08-03T23:11:31+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691104292014_1978741331",
+      "id": "paragraph_1691104292014_1978741331",
+      "dateCreated": "2023-08-03T23:11:32+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:3684",
+      "text": "a = null\r\nassert a?.plus(3) == null\r\nassert a ?+ 3 == null\r\n",
+      "dateUpdated": "2023-08-03T23:11:47+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691104334894_300922001",
+      "id": "paragraph_1691104334894_300922001",
+      "dateCreated": "2023-08-03T23:12:14+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:3756",
+      "text": "//java.lang.Number\r\ndef x = 10\r\nassert x.abs() == 10 //Returns absolute value\r\nassert x.compareTo(3) == 1 //Compares two numbers\r\nassert x.div(2) == 5 //Divides two numbers\r\ndef total = 0\r\nx.downto(5) {\r\nnumber -> total += number} //Sums the numbers from 10 to 5 inclusive\r\nassert total == 45 \r\ntotal = 0\r\nx.upto(15){\r\nnumber -> total += number} //Sums the numbers from 10 to 15 inclusive\r\nassert total == 75",
+      "dateUpdated": "2023-08-03T23:12:25+0000"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691104419793_137353957",
+      "id": "paragraph_1691104419793_137353957",
+      "dateCreated": "2023-08-03T23:13:39+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:3825",
+      "text": "int var = 1\r\nvar = 2.7\r\nassert var == 2\r\nassert var.class in Integer\r\nvar = '1' as char\r\nassert var == 49\r\nassert var.class in Integer",
+      "dateUpdated": "2023-08-03T23:14:02+0000",
+      "title": "Автоматическое преобразование типов"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691104620448_1227475490",
+      "id": "paragraph_1691104620448_1227475490",
+      "dateCreated": "2023-08-03T23:17:00+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:3992",
+      "text": "def var = 15\r\nassert var == Integer.parseInt(\"15\")",
+      "dateUpdated": "2023-08-03T23:17:21+0000",
+      "title": "Типобезопасное преобразование"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691104643678_2052071745",
+      "id": "paragraph_1691104643678_2052071745",
+      "dateCreated": "2023-08-03T23:17:23+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:4080",
+      "text": "def var = 15\r\nassert var == \"15\"",
+      "dateUpdated": "2023-08-03T23:23:28+0000",
+      "dateFinished": "2023-08-03T23:23:20+0000",
+      "dateStarted": "2023-08-03T23:23:20+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      }
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691104929650_1730544760",
+      "id": "paragraph_1691104929650_1730544760",
+      "dateCreated": "2023-08-03T23:22:09+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:4411",
+      "text": "Римские цифры: переопределить оператор ++ для римских цифр от 1 до 9.\nДЗ: переопределить оператор +",
+      "dateUpdated": "2023-08-03T23:25:05+0000",
+      "title": "Практика (+ДЗ)"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691105040999_238892159",
+      "id": "paragraph_1691105040999_238892159",
+      "dateCreated": "2023-08-03T23:24:01+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:4558",
+      "text": "def number = new RomanNumber(\"II\");\r\nprintln  \"Number: $number\"\r\nnumber++;\r\nassert number == new RomanNumber(\"III\")\r\nprintln  \"After incrementing: $number\"\r\nnumber++;\r\nassert number == new RomanNumber(\"IV\")\r\nprintln  \"After incrementing: $number\"",
+      "dateUpdated": "2023-08-03T23:24:09+0000"
+    }
+  ],
+  "name": "lesson02 Syntax and Operators",
+  "id": "2J6584Z8W",
+  "defaultInterpreterGroup": "groovy",
+  "version": "0.10.0",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false,
+    "looknfeel": "default",
+    "personalizedMode": "false"
+  },
+  "info": {},
+  "path": "/lesson02 Syntax and Operators"
+}
