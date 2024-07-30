@@ -1,0 +1,682 @@
+﻿{
+  "paragraphs": [
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692042162835_2064918777",
+      "id": "paragraph_1692042162835_2064918777",
+      "dateCreated": "2023-08-14T19:42:42+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:2498",
+      "text": "def test = {a,b -> a+b}\ndef test2 = {println it}\n\ntest 1,2\ntest2('print')\n",
+      "dateUpdated": "2023-08-15T17:16:00+0000",
+      "dateFinished": "2023-08-15T17:16:00+0000",
+      "dateStarted": "2023-08-15T17:16:00+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "print\n"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Return value",
+      "text": "def sumList = {it.sum()}\r\nassert sumList([1,2,3,4]) == 10\r\n\r\ndef divide = {number1,number2->\r\n  if (number2 == 0) return \"Undefined\"\r\n  return number1 / number2\r\n}\r\n\r\nassert divide(4,2) == 2\r\nassert divide(4,0) == \"Undefined\"",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-15T17:17:01+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692042503992_2013754834",
+      "id": "paragraph_1692042503992_2013754834",
+      "dateCreated": "2023-08-14T19:48:23+0000",
+      "dateStarted": "2023-08-15T17:17:01+0000",
+      "dateFinished": "2023-08-15T17:17:01+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:2499"
+    },
+    {
+      "title": "Вызов closures",
+      "text": "def print = {println it}\r\n\r\nprint(\"Hello World\")\r\nprint.call(\"Hello World\")\r\nprint.doCall(\"Hello World\")",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-14T19:46:44+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Hello World\nHello World\nHello World\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692042302497_311870477",
+      "id": "paragraph_1692042302497_311870477",
+      "dateCreated": "2023-08-14T19:45:02+0000",
+      "dateStarted": "2023-08-14T19:45:49+0000",
+      "dateFinished": "2023-08-14T19:45:49+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:2500"
+    },
+    {
+      "title": "Почему это замыкания?",
+      "text": " def closureOuter = {x ->\r\n        def closureInner = {\r\n            println \"Performing $x\"\r\n        }\r\n        return closureInner\r\n    }\r\n\r\ndef calculate = { int x, int y, String operation ->\r\n        def log = {\r\n            println \"Performing $x $y\"\r\n        }\r\n        def result = 0\r\n        switch (operation) {\r\n            case \"ADD\":\r\n                log(\"Addition\")\r\n                result = x + y\r\n                break\r\n        }\r\n}\r\n\r\ncalculate(1, 2, \"ADD\")\r\ncalculate(1, 3, \"ADD\")\r\n\r\ndef closure = closureOuter(1)\r\nclosure()\r\nclosure = closureOuter(2)\r\nclosure()",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-14T21:00:23+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Performing 1 2\nPerforming 1 3\nPerforming 1\nPerforming 2\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692046644092_1815563347",
+      "id": "paragraph_1692046644092_1815563347",
+      "dateCreated": "2023-08-14T20:57:24+0000",
+      "dateStarted": "2023-08-14T20:59:07+0000",
+      "dateFinished": "2023-08-14T20:59:07+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:2501"
+    },
+    {
+      "title": "Параметры Closures",
+      "text": "def closure = {int a, b -> a + b}\r\n\r\nc = closure\r\nassert c.getMaximumNumberOfParameters() == 2\r\ndef params = closure.getParameterTypes()\r\nassert params[0] in int\r\nassert params[1] as Object",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-14T19:47:35+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692042427913_249369144",
+      "id": "paragraph_1692042427913_249369144",
+      "dateCreated": "2023-08-14T19:47:07+0000",
+      "dateStarted": "2023-08-14T19:47:11+0000",
+      "dateFinished": "2023-08-14T19:47:11+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:2502"
+    },
+    {
+      "title": "Method params",
+      "text": "public class ModifyList extends ArrayList {\r\n  public ModifyList(def collection) {\r\n    super(collection)\r\n  }\r\n  public void modify(closure) {\r\n    for (i in 0..<this.size()) {\r\n      this[i] = closure(this[i])\r\n    }\r\n  }\r\n}\r\n\r\ndef list = new ModifyList([1, 2, 3])\r\n\r\nlist.modify({it * it})\r\nassert list == [1, 4, 9]\r\n\r\nlist.modify({Math.sqrt(it)})\r\nassert list == [1, 2, 3]",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-15T17:28:36+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692042552743_492616758",
+      "id": "paragraph_1692042552743_492616758",
+      "dateCreated": "2023-08-14T19:49:12+0000",
+      "dateStarted": "2023-08-14T19:49:55+0000",
+      "dateFinished": "2023-08-14T19:49:55+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:2503"
+    },
+    {
+      "text": "- Аналог ссылок на методы из java: оператор .&",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-14T19:53:04+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692042727406_1502112754",
+      "id": "paragraph_1692042727406_1502112754",
+      "dateCreated": "2023-08-14T19:52:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:2504"
+    },
+    {
+      "text": "class MethodsAsClosures{\r\n    def test2\r\n  def toLowerCase(text){\r\n    test2 + text.toLowerCase();\r\n  }\r\n}\r\n\r\ndef methodsAsClosures = new MethodsAsClosures(test2: 'test')\r\ndef toLowerCase = methodsAsClosures.&toLowerCase\r\n\r\nassert toLowerCase(\"Groovy\") == \"groovy\"\r\nassert toLowerCase (\"Groovy\") == methodsAsClosures.toLowerCase(\"Groovy\")",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-15T17:31:20+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Assertion failed: \n\nassert toLowerCase(\"Groovy\") == \"groovy\"\n       |                     |\n       testgroovy            false\n\n at paragraph_1692042660845_288564779_ffffffffa42e0d61.run(paragraph_1692042660845_288564779_ffffffffa42e0d61.groovy:11)"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692042660845_288564779",
+      "id": "paragraph_1692042660845_288564779",
+      "dateCreated": "2023-08-14T19:51:00+0000",
+      "dateStarted": "2023-08-15T17:31:20+0000",
+      "dateFinished": "2023-08-15T17:31:20+0000",
+      "status": "ERROR",
+      "$$hashKey": "object:2505"
+    },
+    {
+      "title": "Scopes",
+      "text": "class ClosureScope{\r\n  private classVar = \"class var\"\r\n  private privateMethod(){\r\n    \"private method\"\r\n  }\r\n  public publicMethod(String arg){\r\n    def localVar = \"local var\"\r\n    return {\r\n      \"${classVar},${privateMethod()},${arg},${localVar}\"\r\n    }\r\n  }\r\n}\r\ndef closureScope = new ClosureScope()\r\ndef closure = closureScope.publicMethod(\"method arg\")\r\nprint closure()",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-15T17:36:53+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692045315040_691908211",
+      "id": "paragraph_1692045315040_691908211",
+      "dateCreated": "2023-08-14T20:35:15+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:2506",
+      "dateFinished": "2023-08-15T17:36:54+0000",
+      "dateStarted": "2023-08-15T17:36:54+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "class var,private method,method arg,local var"
+          }
+        ]
+      }
+    },
+    {
+      "text": "// Упражнение: а как в скриптах?\nx = 1\ndef y = 2\ndef clos = {return x + y}",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-14T20:36:43+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692045381218_451657343",
+      "id": "paragraph_1692045381218_451657343",
+      "dateCreated": "2023-08-14T20:36:21+0000",
+      "status": "READY",
+      "$$hashKey": "object:2507"
+    },
+    {
+      "title": "Closures in List",
+      "text": "def list = [1,2,3]\r\n\r\nlist = list.collect{it * it}\r\nassert list == [1,4,9]\r\n\r\nassert list.collect{Math.sqrt(it)} == [1,2,3]",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-14T20:37:26+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692045090756_1807942083",
+      "id": "paragraph_1692045090756_1807942083",
+      "dateCreated": "2023-08-14T20:31:30+0000",
+      "dateStarted": "2023-08-14T20:37:26+0000",
+      "dateFinished": "2023-08-14T20:37:26+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:2508"
+    },
+    {
+      "title": "Closures in Map",
+      "text": "key = {value -> println value}\r\n\r\ndef m = [(key):5]\r\nassert m[key] == 5\r\nassert m.get(key) == 5\r\nassert m.key == null\r\n//m.key.call()\r\n\r\ndef value = {println 'value'}\r\ndef m2 = [key : value]\r\nassert m2[key] == value\r\nassert m2.get(key) == value\r\nassert m2.key == null\r\nm2.key.call()",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-15T17:46:59+0000",
+      "progress": 0,
+      "config": {
+        "lineNumbers": true,
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692044832971_460677382",
+      "id": "paragraph_1692044832971_460677382",
+      "dateCreated": "2023-08-14T20:27:12+0000",
+      "dateStarted": "2023-08-15T17:46:59+0000",
+      "dateFinished": "2023-08-15T17:47:00+0000",
+      "status": "ERROR",
+      "$$hashKey": "object:2509",
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Assertion failed: \n\nassert m2[key] == value\n       | ||    |  |\n       | ||    |  paragraph_1692044832971_460677382_ffffffff80eefc27$_run_closure2@6a3e670b\n       | ||    false\n       | |paragraph_1692044832971_460677382_ffffffff80eefc27$_run_closure1@6e733ec3\n       | null\n       [key:paragraph_1692044832971_460677382_ffffffff80eefc27$_run_closure2@6a3e670b]\n\n at paragraph_1692044832971_460677382_ffffffff80eefc27.run(paragraph_1692044832971_460677382_ffffffff80eefc27.groovy:11)"
+          }
+        ]
+      }
+    },
+    {
+      "text": "def odd = {it ->\r\n  switch(it){\r\n    case {it % 2 == 1} : return true; break\r\n    default: return false\r\n  }\r\n}\r\n// odd(3) == ?\r\n// odd(4) == ? ",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-15T17:52:33+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692045516563_539948733",
+      "id": "paragraph_1692045516563_539948733",
+      "dateCreated": "2023-08-14T20:38:36+0000",
+      "status": "READY",
+      "$$hashKey": "object:2510"
+    },
+    {
+      "title": "This, owner, delegate",
+      "text": "class SpecialMeanings{\r\n  def closure = {\r\n    println this.class.name //Prints the class name\r\n    assert owner.class.name != delegate.class.name\r\n    println owner.class.name //Prints the class name\r\n    println delegate.class.name //Prints the script name\r\n    def nested = {\r\n      println this.class.name //Prints the class name\r\n      assert owner.class.name == delegate.class.name\r\n      println owner.class.name //Prints the outer closure name\r\n    }\r\n    nested()  \r\n  }\r\n}\r\n\r\ndef closure = new SpecialMeanings().closure\r\nclosure.delegate = this\r\nclosure()",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-15T17:55:32+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692042820454_1180616494",
+      "id": "paragraph_1692042820454_1180616494",
+      "dateCreated": "2023-08-14T19:53:40+0000",
+      "dateStarted": "2023-08-15T17:55:32+0000",
+      "dateFinished": "2023-08-15T17:55:32+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:2511"
+    },
+    {
+      "title": "DSL",
+      "text": "def html(Closure cl) {\r\n}\r\n\r\ndef body(Closure cl) {\r\n    println '<body/>'\r\n}\r\n\r\ndef head(Closure cl) {\r\n    println '<head/>'\r\n}\r\n\r\nhtml {\r\n    head {\r\n    }\r\n    body {\r\n        \r\n    }\r\n}",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-15T18:04:44+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692042166608_1628534001",
+      "id": "paragraph_1692042166608_1628534001",
+      "dateCreated": "2023-08-14T19:42:46+0000",
+      "dateStarted": "2023-08-15T18:04:44+0000",
+      "dateFinished": "2023-08-15T18:04:44+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:2512"
+    },
+    {
+      "title": "Каррирование",
+      "text": "def original = {x,y,z -> return x + y + z}\r\ndef addOne = original.curry(1)\r\nassert addOne(1,1) == 3\r\ndef addTwo = addOne.curry(1)\r\nassert addTwo(1) == 3",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-14T20:46:43+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692042172250_1946813488",
+      "id": "paragraph_1692042172250_1946813488",
+      "dateCreated": "2023-08-14T19:42:52+0000",
+      "dateStarted": "2023-08-14T20:46:43+0000",
+      "dateFinished": "2023-08-14T20:46:43+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:2513"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692046003506_602756057",
+      "id": "paragraph_1692046003506_602756057",
+      "dateCreated": "2023-08-14T20:46:43+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:2514",
+      "text": "class Employee {\ndef name\ndef hourlyRate\ndef hoursPerWeek\ndef salesCount\n}\n\ndef employeeIncome = {salaryCalculator, bonusesCalculator, e -> salaryCalculator(e) + bonusesCalculator(e)}\ndef salaryCalculator = {e -> e.hourlyRate * e.hoursPerWeek * 52}\ndef bonusesCalculator = {e -> e.salesCount * 1000}\n\ndef emp1 = new Employee(name: 'Andrey', hourlyRate: 100, hoursPerWeek: 40, salesCount: 150)\ndef employeeIncomeApi = employeeIncome.curry(salaryCalculator, bonusesCalculator)\n\ndef result = employeeIncomeApi(emp1)\nprintln result",
+      "dateUpdated": "2023-08-15T18:30:26+0000",
+      "dateFinished": "2023-08-15T18:30:27+0000",
+      "dateStarted": "2023-08-15T18:30:26+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "358000\n"
+          }
+        ]
+      }
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/undefined"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692124198011_1767089265",
+      "id": "paragraph_1692124198011_1767089265",
+      "dateCreated": "2023-08-15T18:29:58+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:3313"
+    }
+  ],
+  "name": "lesson05 Functional Programming",
+  "id": "2JA8X8Q73",
+  "defaultInterpreterGroup": "groovy",
+  "version": "0.10.0",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false,
+    "looknfeel": "default",
+    "personalizedMode": "false"
+  },
+  "info": {},
+  "path": "/lesson05 Functional Programming"
+}

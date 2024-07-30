@@ -1,0 +1,1290 @@
+﻿{
+  "paragraphs": [
+    {
+      "text": "Списки\r\n[] - ArrayList\r\nnew ArrayList()",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:28:20+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692303806369_927559083",
+      "id": "paragraph_1692303806369_927559083",
+      "dateCreated": "2023-08-17T20:23:26+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:7214"
+    },
+    {
+      "text": "a = [1,2,3]\r\nassert a.class == ArrayList\r\nb = new LinkedList([1,2,3])\r\nassert b.class == LinkedList",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:28:20+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692304030942_1102306793",
+      "id": "paragraph_1692304030942_1102306793",
+      "dateCreated": "2023-08-17T20:27:10+0000",
+      "dateStarted": "2023-08-17T20:28:20+0000",
+      "dateFinished": "2023-08-17T20:28:21+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:7215"
+    },
+    {
+      "text": "a = [1,2,3,4]\r\nassert a[0] == a.get(0) && a[0] == a.getAt(0)\r\nassert a[-4] == 1\r\nassert a[-1] == 4",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:28:43+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692304112596_885840039",
+      "id": "paragraph_1692304112596_885840039",
+      "dateCreated": "2023-08-17T20:28:32+0000",
+      "status": "READY",
+      "$$hashKey": "object:7216"
+    },
+    {
+      "text": "a = [1,2]\r\na += 3\r\na << 4\r\na.add(5)\r\nassert a == [1,2,3,4,5]\r\n\r\na = [1,2,3]\r\na = a + 4\r\nassert a == [1,2,3,4]\r\na.plus(5)\r\nassert a == [1,2,3,4]",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:29:36+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692304137219_997183590",
+      "id": "paragraph_1692304137219_997183590",
+      "dateCreated": "2023-08-17T20:28:57+0000",
+      "status": "READY",
+      "$$hashKey": "object:7217"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692379589960_167619900",
+      "id": "paragraph_1692379589960_167619900",
+      "dateCreated": "2023-08-18T17:26:29+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:8082",
+      "text": "1.each{\n    print it\n}",
+      "dateUpdated": "2023-08-18T17:29:34+0000",
+      "dateFinished": "2023-08-18T17:26:46+0000",
+      "dateStarted": "2023-08-18T17:26:46+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "1"
+          }
+        ]
+      }
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692379752883_1756839293",
+      "id": "paragraph_1692379752883_1756839293",
+      "dateCreated": "2023-08-18T17:29:12+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:8182",
+      "text": "for(int el : a) {\r\n    a.set(1, 1);\r\n}",
+      "dateUpdated": "2023-08-18T17:29:38+0000",
+      "dateFinished": "2023-08-18T17:29:22+0000",
+      "dateStarted": "2023-08-18T17:29:22+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      }
+    },
+    {
+      "text": "def a = [] //Empty list\r\na += [1,2,3] //Adding elements to a list\r\nassert a == [1,2,3]\r\nassert a.size == 3\r\na << 4 << 5 //Another way of adding elements to a list\r\nassert a == [1,2,3,4,5]\r\na.add(6) //A third way of adding elements to a list\r\nassert a == [1,2,3,4,5,6]\r\n\r\n//Accessing elements of a list\r\nassert a[0] == 1 //Using a subscript\r\nassert a.get(0) == 1 //Using get\r\nassert a.getAt(0) == 1 //Using getAt\r\nassert a[-1]  == 6 //Last element index starts at -1 backwards\r\n\r\n//Modifying elements in a list\r\na.putAt(1,1)\r\nassert a == [1,1,3,4,5,6]\r\nassert a.set(1,2) == 1 //Will return the old value\r\nassert a == [1,2,3,4,5,6]\r\n\r\n//Iterating over a list\r\na.each{ println \"$it\"}\r\n\r\n//Printing items in a list with their index\r\na.eachWithIndex{it, index -> println item : \"$it\", index : \"$index\"}\r\n\r\n//Removing items from a list\r\na -= 1 //Remove number 1\r\nassert a == [2,3,4,5,6]\r\na = a.minus([2,3,4]) //Remove the sublist [2,3,4]\r\nassert a == [5,6]",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-18T17:29:12+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "1\n2\n3\n4\n5\n6\n[item:1, index:0]\n[item:2, index:1]\n[item:3, index:2]\n[item:4, index:3]\n[item:5, index:4]\n[item:6, index:5]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692303939393_1251902731",
+      "id": "paragraph_1692303939393_1251902731",
+      "dateCreated": "2023-08-17T20:25:39+0000",
+      "dateStarted": "2023-08-17T20:25:42+0000",
+      "dateFinished": "2023-08-17T20:25:42+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:7218"
+    },
+    {
+      "text": "total = 0\r\na = [1,2,3]\r\nb = []\r\na.each{ total += it}\r\nassert total == 6\r\n\r\na.eachWithIndex{it, index -> b[index] = a[index]; a[index] = total}\r\nassert a == b",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:36:56+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Assertion failed: \n\nassert a == b\n       | |  |\n       | |  [1, 2, 3]\n       | false\n       [6, 6, 6]\n\n at paragraph_1692304523876_1202731410_5831d1ba.run(paragraph_1692304523876_1202731410_5831d1ba.groovy:8)"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692304523876_1202731410",
+      "id": "paragraph_1692304523876_1202731410",
+      "dateCreated": "2023-08-17T20:35:23+0000",
+      "dateStarted": "2023-08-17T20:36:56+0000",
+      "dateFinished": "2023-08-17T20:36:56+0000",
+      "status": "ERROR",
+      "$$hashKey": "object:7219"
+    },
+    {
+      "text": "class ListSum{\r\n  public static int sum(list){\r\n    def result = 0\r\n    list.each{\r\n      result += it\r\n    }\r\n    return result\r\n  }\r\n}\r\n\r\na = [1,2,3,4,5]\r\nprintln ListSum.sum(a)",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:25:12+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692303901331_1070793538",
+      "id": "paragraph_1692303901331_1070793538",
+      "dateCreated": "2023-08-17T20:25:01+0000",
+      "status": "READY",
+      "$$hashKey": "object:7220"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692380533775_1755313927",
+      "id": "paragraph_1692380533775_1755313927",
+      "dateCreated": "2023-08-18T17:42:13+0000",
+      "status": "ERROR",
+      "focus": true,
+      "$$hashKey": "object:8391",
+      "text": "println (1 + 'q')\nprintln ('q' + 1)",
+      "dateUpdated": "2023-08-18T17:43:57+0000",
+      "dateFinished": "2023-08-18T17:43:34+0000",
+      "dateStarted": "2023-08-18T17:43:33+0000",
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "groovy.lang.MissingMethodException: No signature of method: java.util.Date.plus() is applicable for argument types: (java.lang.String) values: [q]\nPossible solutions: plus(int), parse(java.lang.String), minus(java.util.Date), use([Ljava.lang.Object;), is(java.lang.Object), parse(java.lang.String, java.lang.String)\n at paragraph_1692380533775_1755313927_55fc4658.run(paragraph_1692380533775_1755313927_55fc4658.groovy:1)"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Упражнение: а можно по другому?",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:30:34+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692304219012_989481299",
+      "id": "paragraph_1692304219012_989481299",
+      "dateCreated": "2023-08-17T20:30:19+0000",
+      "status": "READY",
+      "$$hashKey": "object:7221"
+    },
+    {
+      "text": "// можно!\na = [1,2,3,4,5]\na.sum()\nprintln a.sum(10)",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-18T17:37:18+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692304330150_520278739",
+      "id": "paragraph_1692304330150_520278739",
+      "dateCreated": "2023-08-17T20:32:10+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:7222",
+      "dateFinished": "2023-08-18T17:37:18+0000",
+      "dateStarted": "2023-08-18T17:37:18+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "25\n"
+          }
+        ]
+      }
+    },
+    {
+      "text": "[1,2,3].sum()\r\n[1,2,3].sum(10)\r\nprintln( [1, 'a',2,3].sum())\r\n['Hello','World'].sum()",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-18T17:40:32+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692305116699_1483660901",
+      "id": "paragraph_1692305116699_1483660901",
+      "dateCreated": "2023-08-17T20:45:16+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:7223",
+      "dateFinished": "2023-08-18T17:40:33+0000",
+      "dateStarted": "2023-08-18T17:40:32+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "1a23\n"
+          }
+        ]
+      }
+    },
+    {
+      "text": "a = [1,2,3,10,4]\r\nassert a.max() == 10 \r\nassert Collections.max(a) == 10 //Another way to find max\r\nassert a.min() == 1\r\nassert Collections.min(a) == 1 //Another way to find min\r\na = ['a','b','c', 'Hello']\r\nassert a.min() == 'Hello' //Compare using ASCII representation\r\nassert a.max() == 'c'",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-18T17:44:44+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692304949483_1231354492",
+      "id": "paragraph_1692304949483_1231354492",
+      "dateCreated": "2023-08-17T20:42:29+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:7224",
+      "dateFinished": "2023-08-18T17:44:44+0000",
+      "dateStarted": "2023-08-18T17:44:44+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      }
+    },
+    {
+      "text": "def a = ['January','Feburary','March','April']\r\nassert a.min{\r\n    switch(it){\r\n    case 'January' : return 1\r\n    break\r\n    case 'Feburary' : return 2\r\n    break\r\n    case 'March' : return 3\r\n    break\r\n    case 'April' : return 4\r\n    break\r\n    default : return 1\r\n    }\r\n}  == 'January'",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:33:46+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692304415740_936734021",
+      "id": "paragraph_1692304415740_936734021",
+      "dateCreated": "2023-08-17T20:33:35+0000",
+      "status": "READY",
+      "$$hashKey": "object:7225"
+    },
+    {
+      "text": "a =  [9,2,5,6,3]\r\nassert a.sort() == [2,3,5,6,9]\r\n\r\nmonths = [\"March\",\"April\",\"January\",\"Feburary\"]\r\nassert months.sort{\r\n    switch(it){\r\n    case 'January' : return 1\r\n    break\r\n    case 'Feburary' : return 2\r\n    break\r\n    case 'March' : return 3\r\n    break\r\n    case 'April' : return 4\r\n    break\r\n    default : return 1\r\n    }\r\n} == [\"January\", \"Feburary\", \"March\", \"April\"]",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:34:23+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692304452182_1783311496",
+      "id": "paragraph_1692304452182_1783311496",
+      "dateCreated": "2023-08-17T20:34:12+0000",
+      "status": "READY",
+      "$$hashKey": "object:7226"
+    },
+    {
+      "text": "a = [1,2,3]\r\nb = [1,[2,3]]\r\nassert a != b\r\nassert a == b.flatten()",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:34:47+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692304479590_1272831185",
+      "id": "paragraph_1692304479590_1272831185",
+      "dateCreated": "2023-08-17T20:34:39+0000",
+      "status": "READY",
+      "$$hashKey": "object:7227"
+    },
+    {
+      "text": "import java.util.stream.Collectors\r\n\r\nassert [1,2,3].join('-') == \"1-2-3\"\r\n['1','2','3'].stream().collect(Collectors.joining(\"-\"))\r\nassert [1,2,3].join('and') == \"1and2and3\"",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-18T17:56:23+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692304723356_1355407773",
+      "id": "paragraph_1692304723356_1355407773",
+      "dateCreated": "2023-08-17T20:38:43+0000",
+      "dateStarted": "2023-08-18T17:56:23+0000",
+      "dateFinished": "2023-08-18T17:56:23+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:7228"
+    },
+    {
+      "text": "a = [1,2,3]\r\nb = a.collect{it * 10}\r\nassert b == [10,20,30]",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:30:45+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692304234129_1482293071",
+      "id": "paragraph_1692304234129_1482293071",
+      "dateCreated": "2023-08-17T20:30:34+0000",
+      "status": "READY",
+      "$$hashKey": "object:7229"
+    },
+    {
+      "text": "a = ('a'..'z').toList()\r\nassert a.find{it > 'x'} == 'y'\r\nassert a.findAll{it > 'x'} == ['y','z']\r\nassert a.every{it > 'A'}\r\nassert a.any{it > 'c'}",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:43:26+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692305002551_708395125",
+      "id": "paragraph_1692305002551_708395125",
+      "dateCreated": "2023-08-17T20:43:22+0000",
+      "status": "READY",
+      "$$hashKey": "object:7230"
+    },
+    {
+      "text": "a = [1,2,3]\r\na -= [3]\r\nassert a == [1,2]\r\na = a.minus(2)\r\nassert a == [1]\r\n\r\na = [1,2,3,4]\r\nassert a.remove(0) == 1 //Returns the removed element\r\na = ['a','b','c']\r\nassert a.remove('a') == true //Returns true if the element is removed\r\nassert a.remove('d') == false //Returns false if the element is not found",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:44:15+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692305026245_541759223",
+      "id": "paragraph_1692305026245_541759223",
+      "dateCreated": "2023-08-17T20:43:46+0000",
+      "status": "READY",
+      "$$hashKey": "object:7231"
+    },
+    {
+      "text": "a = [1,2,3,4]\r\nassert a.reverse() == [4,3,2,1]",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:44:49+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692305029572_210292974",
+      "id": "paragraph_1692305029572_210292974",
+      "dateCreated": "2023-08-17T20:43:49+0000",
+      "status": "READY",
+      "$$hashKey": "object:7232"
+    },
+    {
+      "text": "Если список в условии:\nassert (![])\nassert ([1])",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:46:15+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692305159706_805148971",
+      "id": "paragraph_1692305159706_805148971",
+      "dateCreated": "2023-08-17T20:45:59+0000",
+      "status": "READY",
+      "$$hashKey": "object:7233"
+    },
+    {
+      "text": "Упражнение:\nassert -[1, 2, 3] == [-1, -2, -3]",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-18T18:03:37+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692305271135_1781920713",
+      "id": "paragraph_1692305271135_1781920713",
+      "dateCreated": "2023-08-17T20:47:51+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:7234",
+      "dateFinished": "2023-08-18T18:03:37+0000",
+      "dateStarted": "2023-08-18T18:03:37+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      }
+    },
+    {
+      "text": "a = ['Hello',1,2,[2,3,4]]\r\nassert a[3] == [2,3,4]",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:48:19+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692305287857_1587347192",
+      "id": "paragraph_1692305287857_1587347192",
+      "dateCreated": "2023-08-17T20:48:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7235"
+    },
+    {
+      "text": "a = [1,2,3,4,5]\r\nassert a[0..2] == [1,2,3]\r\nb = 'a'..'z'\r\nassert b[0..3] == ['a','b','c','d']",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:49:03+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692305300056_1384810941",
+      "id": "paragraph_1692305300056_1384810941",
+      "dateCreated": "2023-08-17T20:48:20+0000",
+      "status": "READY",
+      "$$hashKey": "object:7236"
+    },
+    {
+      "text": "assert [1..3] == [[1,2,3]]\r\nassert [*1..3] == [1,2,3] // The * operator is used to flatten the list",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:50:18+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692305415820_172658030",
+      "id": "paragraph_1692305415820_172658030",
+      "dateCreated": "2023-08-17T20:50:15+0000",
+      "status": "READY",
+      "$$hashKey": "object:7237"
+    },
+    {
+      "text": "def map = [name:'Andrey',age:26,id:2000,active:true]\r\nassert map.getClass() == LinkedHashMap\r\nassert map.class == null",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:53:03+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692305572990_186967700",
+      "id": "paragraph_1692305572990_186967700",
+      "dateCreated": "2023-08-17T20:52:52+0000",
+      "dateStarted": "2023-08-17T20:53:03+0000",
+      "dateFinished": "2023-08-17T20:53:03+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:7238"
+    },
+    {
+      "text": "def map = [name:'Andrey',age:26,id:2000,active:true]\r\nassert map.1 == 'Andrey'\r\nassert map['name'] == 'Andrey'\r\nassert map.get('name') == 'Andrey'\r\nassert map.getAt('name') == 'Andrey'",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-18T18:16:56+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692305966293_1239602622",
+      "id": "paragraph_1692305966293_1239602622",
+      "dateCreated": "2023-08-17T20:59:26+0000",
+      "dateStarted": "2023-08-17T20:59:42+0000",
+      "dateFinished": "2023-08-17T20:59:42+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:7239"
+    },
+    {
+      "text": "def map = [name:'Andrey',age:26,id:2000,active:true]\r\nmap[\"title\"] = 'Software Engineer'\r\nmap.put(\"city\",\"Moscow\")\r\nmap.putAt(\"state\",\"MSK\")\r\nassert map == [\"name\":\"Andrey\", \"age\":26, \"id\":2000, \"active\":true,\r\n                \"title\":\"Software Engineer\", \"city\":\"Moscow\", \"state\":\"MSK\"]\r\n                \r\nmap.active = false\r\nmap.id = map.id - 1000\r\nassert map == [\"name\":\"Andrey\", \"age\":26, \"id\":1000, \"active\":false]",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-18T18:18:36+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692305447726_1384615663",
+      "id": "paragraph_1692305447726_1384615663",
+      "dateCreated": "2023-08-17T20:50:47+0000",
+      "status": "READY",
+      "$$hashKey": "object:7240"
+    },
+    {
+      "text": "def map = ['a':1,'b':2,'c':3]\r\nassert map.containsKey('a')\r\nassert map.containsValue(1)",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:52:44+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692305515428_2076050114",
+      "id": "paragraph_1692305515428_2076050114",
+      "dateCreated": "2023-08-17T20:51:55+0000",
+      "status": "READY",
+      "$$hashKey": "object:7241"
+    },
+    {
+      "text": "def map = [name:'Andrey',age:26,id:2000,active:true]\r\nassert map.title == null\r\nassert map.get('title','Software Engineer') == 'Software Engineer'",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:55:05+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692305657937_1070344323",
+      "id": "paragraph_1692305657937_1070344323",
+      "dateCreated": "2023-08-17T20:54:17+0000",
+      "dateStarted": "2023-08-17T20:55:05+0000",
+      "dateFinished": "2023-08-17T20:55:05+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:7242"
+    },
+    {
+      "text": "def map = ['a':1,'b':2,'c':3]\r\nmap.entrySet().collect{\r\n    assert it.key in ['a','b','c']\r\n    it.value += 2\r\n}\r\nassert map == [\"a\":3, \"b\":4, \"c\":5]",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:57:36+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692305700999_502447871",
+      "id": "paragraph_1692305700999_502447871",
+      "dateCreated": "2023-08-17T20:55:00+0000",
+      "dateStarted": "2023-08-17T20:57:36+0000",
+      "dateFinished": "2023-08-17T20:57:36+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:7243"
+    },
+    {
+      "text": "def map = ['a':1,'b':2,'c':3]\r\nassert map.findAll{it.key == 'a'} == [\"a\":1]",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:57:53+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692305856638_223928949",
+      "id": "paragraph_1692305856638_223928949",
+      "dateCreated": "2023-08-17T20:57:36+0000",
+      "status": "READY",
+      "$$hashKey": "object:7244"
+    },
+    {
+      "text": "def keys = []\r\ndef map = [name:'Andrey',age:\"26\",title:'Software Engineer',department:\"26\"]\r\nmap.findAll{it.value == '26'}.each{keys += it?.key}\r\nassert keys == [\"department\", \"age\"]",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T20:58:42+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692305873696_1648619921",
+      "id": "paragraph_1692305873696_1648619921",
+      "dateCreated": "2023-08-17T20:57:53+0000",
+      "status": "READY",
+      "$$hashKey": "object:7245"
+    },
+    {
+      "text": "StringBuffer sb = new StringBuffer()\r\ndef map = [name:'Andrey',age:26,id:2000,active:true]\r\nmap.each{sb += it.key + \":\" + it.value + \",\"}\r\nassert sb.toString() == \"name:Andrey,age:26,id:2000,active:true,\"",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T21:00:56+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'name:Andrey,' with class 'java.lang.String' to class 'java.lang.StringBuffer'\n at paragraph_1692306028107_2019448680_2684fb3$_run_closure1.doCall(paragraph_1692306028107_2019448680_2684fb3.groovy:3)"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692306028107_2019448680",
+      "id": "paragraph_1692306028107_2019448680",
+      "dateCreated": "2023-08-17T21:00:28+0000",
+      "dateStarted": "2023-08-17T21:00:56+0000",
+      "dateFinished": "2023-08-17T21:00:56+0000",
+      "status": "ERROR",
+      "$$hashKey": "object:7246"
+    },
+    {
+      "text": "def map = ['a':1,'b':2,'c':3]\r\nassert map.keySet().toList() == ['a', 'b', 'c']\r\nassert map.values().toList() == [1, 2, 3]",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T21:01:34+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692306056384_314552209",
+      "id": "paragraph_1692306056384_314552209",
+      "dateCreated": "2023-08-17T21:00:56+0000",
+      "status": "READY",
+      "$$hashKey": "object:7247"
+    },
+    {
+      "text": "def map = [name:'Andrey',age:26,id:2000,active:true]\r\nmap.remove('name')\r\nassert map == [\"age\":26, \"id\":2000, \"active\":true]",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T21:02:38+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692306104299_1738917820",
+      "id": "paragraph_1692306104299_1738917820",
+      "dateCreated": "2023-08-17T21:01:44+0000",
+      "dateStarted": "2023-08-17T21:02:38+0000",
+      "dateFinished": "2023-08-17T21:02:38+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:7248"
+    },
+    {
+      "text": "map = [1:'1',2:'2',1:'3']\r\nassert map == [2:'2',1:'3']",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-17T21:02:59+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1692306158756_1667520144",
+      "id": "paragraph_1692306158756_1667520144",
+      "dateCreated": "2023-08-17T21:02:38+0000",
+      "status": "READY",
+      "$$hashKey": "object:7249"
+    }
+  ],
+  "name": "lesson06 Collections",
+  "id": "2J9SAP2GA",
+  "defaultInterpreterGroup": "groovy",
+  "version": "0.10.0",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false,
+    "looknfeel": "default",
+    "personalizedMode": "false"
+  },
+  "info": {},
+  "path": "/lesson06 Collections"
+}

@@ -1,0 +1,924 @@
+{
+  "paragraphs": [
+    {
+      "text": "Римские цифры: переопределить оператор ++ для римских цифр от 1 до 9.\nДЗ: переопределить оператор +",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 19:47:40.118",
+      "progress": 0,
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/undefined"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691251402108_1894163206",
+      "id": "paragraph_1691251402108_1894163206",
+      "dateCreated": "2023-08-05 16:03:22.108",
+      "status": "READY"
+    },
+    {
+      "text": "def number \u003d new RomanNumber(\"II\");\r\nprintln  \"Number: $number\"\r\nnumber++;\r\nassert number \u003d\u003d new RomanNumber(\"III\")\r\nprintln  \"After incrementing: $number\"\r\nnumber++;\r\nassert number \u003d\u003d new RomanNumber(\"IV\")\r\nnumber + number\r\nprintln  \"After incrementing: $number\"",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 19:47:58.663",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691437660214_1153979068",
+      "id": "paragraph_1691437660214_1153979068",
+      "dateCreated": "2023-08-07 19:47:40.214",
+      "status": "READY"
+    },
+    {
+      "title": "Строки",
+      "text": "def text \u003d \u0027Welcome to Groovy\u0027\r\nassert text as java.lang.String\r\n\r\nString str \u003d \"\"\"Вообще не\r\nреальная\r\nситуация\"\"\"\r\n\r\nprintln str\r\n\r\nString str2 \u003d /он сказал: \"писать 2 \\\\ лучше чем 4\\\\\"/\r\n\r\nprintln str2\r\n\r\ndef text2 \u003d \u0027\u0027\u0027\r\nWelcome to Groovy\r\n----------------\r\n\u0027\u0027\u0027\r\n\r\nprintln text2\r\n",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:41:28.187",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Вообще не\nреальная\nситуация\nон сказал: \"писать 2 \\\\ лучше чем 4\\\\\"\n\nWelcome to Groovy\n----------------\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691437678786_1212542195",
+      "id": "paragraph_1691437678786_1212542195",
+      "dateCreated": "2023-08-07 19:47:58.787",
+      "dateStarted": "2023-08-07 20:41:28.214",
+      "dateFinished": "2023-08-07 20:41:28.232",
+      "status": "ABORT"
+    },
+    {
+      "text": "def text \u003d \"Welcome to Groovy\" \r\n\r\n//Both methods return the size of a String\r\nassert text.size() \u0026\u0026 text.length() \u003d\u003d 17 \r\nassert text.substring(0,7) \u003d\u003d \"Welcome\" \r\nassert text.contains(\"Welcome\")\r\n\r\n//Count number of occurences of a word in a String\r\nassert text.count(\"Welcome\") \u003d\u003d 1\r\ntext +\u003d \"\\nWhat a great language\"\r\n\r\n//Decide whether a String can be parsed as a number or not\r\nassert text.isNumber() \u003d\u003d false\r\n\r\n//Reverse a String\r\nassert text.reverse() \u003d\u003d\"egaugnal taerg a tahW\\nyvoorG ot emocleW\"\r\nassert text.findAll{it \u003e \u0027w\u0027} \u003d\u003d [\u0027y\u0027] //Finds all characters greater than \u0027w\u0027\r\nassert text.replace(\u0027Groovy\u0027,\u0027Java\u0027) \u003d\u003d \u0027Welcome to Java\\nWhat a great language\u0027",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:40:26.073",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691439843568_1637279317",
+      "id": "paragraph_1691439843568_1637279317",
+      "dateCreated": "2023-08-07 20:24:03.569",
+      "dateStarted": "2023-08-07 20:39:53.155",
+      "dateFinished": "2023-08-07 20:39:53.165",
+      "status": "FINISHED"
+    },
+    {
+      "text": "assert \u0027\\t\u0027 \u003d\u003d \u0027\\011\u0027    //Tab\r\nassert \u0027\\n\u0027 \u003d\u003d \u0027\\012\u0027    //New line\r\nassert \u0027\\r\u0027 \u003d\u003d \u0027\\015\u0027    //Carriage return\r\nassert \u0027\\n\u0027 \u003d\u003d \"\"\"\r\n\"\"\" //Spanning multiple lines",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:49:36.303",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691441331622_1711947704",
+      "id": "paragraph_1691441331622_1711947704",
+      "dateCreated": "2023-08-07 20:48:51.622",
+      "dateStarted": "2023-08-07 20:49:36.328",
+      "dateFinished": "2023-08-07 20:49:36.343",
+      "status": "FINISHED"
+    },
+    {
+      "text": "assert \u0027Hello\u0027.padRight(7,\u0027*\u0027) \u003d\u003d \u0027Hello**\u0027\r\nassert \u0027Hello\u0027.padLeft(7,\u0027*\u0027) \u003d\u003d \u0027**Hello\u0027\r\nassert \u0027Hello\u0027.center(9,\u0027*\u0027) \u003d\u003d \u0027**Hello**\u0027",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:49:34.627",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691441367420_993850326",
+      "id": "paragraph_1691441367420_993850326",
+      "dateCreated": "2023-08-07 20:49:27.420",
+      "dateStarted": "2023-08-07 20:49:34.654",
+      "dateFinished": "2023-08-07 20:49:34.673",
+      "status": "FINISHED"
+    },
+    {
+      "text": "assert \u0027hello\u0027[1] \u003d\u003d \u0027e\u0027\r\nassert \u0027hello\u0027[2..\u0027hello\u0027.size() - 1] \u003d\u003d \u0027llo\u0027\r\nassert \u0027hello\u0027[0,2,4] \u003d\u003d \u0027hlo\u0027\r\nassert \u0027hello\u0027[-4,-2] \u003d\u003d \u0027el\u0027",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:51:46.747",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691441499314_2011381325",
+      "id": "paragraph_1691441499314_2011381325",
+      "dateCreated": "2023-08-07 20:51:39.314",
+      "dateStarted": "2023-08-07 20:51:46.773",
+      "dateFinished": "2023-08-07 20:51:46.791",
+      "status": "ABORT"
+    },
+    {
+      "title": "GString",
+      "text": "Пишутся в двойных кавычках\r\nМогут содержать выражения",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 19:57:21.139",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691437678766_860212911",
+      "id": "paragraph_1691437678766_860212911",
+      "dateCreated": "2023-08-07 19:47:58.767",
+      "status": "READY"
+    },
+    {
+      "text": "class MyObject{\r\n    void doSomething() { println \"do something\" }\r\n}\r\n\r\nx \u003d 10\r\ny \u003d 5\r\n\r\nstr \u003d \u0027test\u0027\r\n\r\nprintln \"цитата: $str\"\r\nprintln \"diff between x and y \u003d ${x-y}\"\r\nprintln \"И даже так: ${new MyObject().doSomething()}}\"\r\n",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 19:59:14.758",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "цитата: test\ndiff between x and y \u003d 5\nИ даже так: null}\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691438241214_691728006",
+      "id": "paragraph_1691438241214_691728006",
+      "dateCreated": "2023-08-07 19:57:21.214",
+      "dateStarted": "2023-08-07 19:59:14.784",
+      "dateFinished": "2023-08-07 19:59:14.823",
+      "status": "FINISHED"
+    },
+    {
+      "text": "Упражнение:\nчто будет выведено?\n(В рантайме обрабатываются только closures, все остальное инлайнится)",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:00:26.465",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691438275139_1358929068",
+      "id": "paragraph_1691438275139_1358929068",
+      "dateCreated": "2023-08-07 19:57:55.139",
+      "status": "READY"
+    },
+    {
+      "text": "def back \u003d \u0027back\u0027\r\ndef quotes \u003d [\"I’ll be $back\",\r\n\"I’ll be {-\u003e back}\",\r\n\"I’ll be ${back}\",\r\n\"Ill be \" + back]\r\n\r\nprintln quotes\r\nback \u003d \"bach\"\r\nprintln quotes\r\n",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:01:48.563",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691438426569_294085023",
+      "id": "paragraph_1691438426569_294085023",
+      "dateCreated": "2023-08-07 20:00:26.569",
+      "status": "READY"
+    },
+    {
+      "title": "StringBuffer",
+      "text": "def sb \u003d new StringBuffer(\u0027Hello World\u0027)\r\nassert sb.toString() \u003d\u003d \u0027Hello World\u0027\r\n\r\nsb.length \u003d 5\r\nassert sb.toString() \u003d\u003d \u0027Hello\u0027\r\nassert sb.substring(0,2) \u003d\u003d \u0027He\u0027\r\n\r\n//Use \u003c\u003c, append(String) or leftShift(String) to append to a StringBuffer.\r\n//Using + to append to a StringBuffer will return a String\r\nsb \u003d new StringBuffer(\"Hello\")\r\nassert sb + \u0027 World\u0027 in java.lang.String\r\nassert sb \u003c\u003c \u0027 World\u0027 in java.lang.StringBuffer\r\n\r\nassert sb.toString() \u003d\u003d (\"Hello World\")\r\nassert sb.append(\", Groovy rocks\").toString() \u003d\u003d \"Hello World, Groovy rocks\"\r\nassert sb.leftShift(\". Doesn\u0027t?\").toString() \u003d\u003d \"Hello World, Groovy rocks. Doesn\u0027t?\"",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:47:16.465",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691441148227_512761795",
+      "id": "paragraph_1691441148227_512761795",
+      "dateCreated": "2023-08-07 20:45:48.227",
+      "dateStarted": "2023-08-07 20:47:16.485",
+      "dateFinished": "2023-08-07 20:47:16.489",
+      "status": "ABORT"
+    },
+    {
+      "text": "sb \u003d new StringBuffer(\"abcdefg\")\r\nassert sb[0] \u003d\u003d \u0027a\u0027\r\nassert sb[2..4] \u003d\u003d \u0027cde\u0027\r\nassert sb[0].class \u003d\u003d String\r\nassert sb[-6..-4] \u003d\u003d \"bcd\"\r\nsb[0..2] \u003d \"xyz\"\r\nassert sb.toString() \u003d\u003d \"xyzdefg\"",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:48:19.401",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691441292830_184742196",
+      "id": "paragraph_1691441292830_184742196",
+      "dateCreated": "2023-08-07 20:48:12.830",
+      "status": "READY"
+    },
+    {
+      "title": "Переопределение операторов",
+      "text": "Все типы - объекты\r\nВсе операторы - методы",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:02:32.929",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691438508654_1914578046",
+      "id": "paragraph_1691438508654_1914578046",
+      "dateCreated": "2023-08-07 20:01:48.654",
+      "status": "READY"
+    },
+    {
+      "text": "“ab” + “c” \u003d ?\r\n“abc - “c” \u003d ? ",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:02:55.247",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691438555101_1478666572",
+      "id": "paragraph_1691438555101_1478666572",
+      "dateCreated": "2023-08-07 20:02:35.101",
+      "status": "READY"
+    },
+    {
+      "text": "Упражнение:\nчто будет выведено?",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:03:22.121",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691438575402_2013189006",
+      "id": "paragraph_1691438575402_2013189006",
+      "dateCreated": "2023-08-07 20:02:55.402",
+      "status": "READY"
+    },
+    {
+      "text": "def beast \u003d \u00276\u0027 * Math.PI\r\ndef beast \u003d \u00276\u0027 * \u00273’\u0027\r\ndef beast \u003d \u0027667\u0027 - 1\r\ndef beast \u003d \u00276\u0027 + \u00276\u0027 + 0 + 6\r\n\r\nprintln beast\r\n",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:04:18.247",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691438575333_1823507486",
+      "id": "paragraph_1691438575333_1823507486",
+      "dateCreated": "2023-08-07 20:02:55.333",
+      "status": "READY"
+    },
+    {
+      "text": "\"2.718\".isNumber() \u003d ?\r\n\u00275\u0027.toInteger()\r\n\u00275\u0027 as Integer\r\n(int) \u00275\u0027 \u003d ?\r\n",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:05:29.111",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691438664757_13851604",
+      "id": "paragraph_1691438664757_13851604",
+      "dateCreated": "2023-08-07 20:04:24.757",
+      "status": "READY"
+    },
+    {
+      "text": "String truth \u003d \u0027false\u0027\r\nboolean b \u003d truth",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:05:32.107",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691438729206_721121604",
+      "id": "paragraph_1691438729206_721121604",
+      "dateCreated": "2023-08-07 20:05:29.206",
+      "status": "READY"
+    },
+    {
+      "text": "assert true //Boolean\r\nassert !false\r\n\r\nassert \u0027Hello World\u0027 \u003d\u003d /Hello World/ //A matcher must find a match\r\n\r\nassert \"Hello\" //A string must be nonempty\r\nassert !\"\"\r\n\r\nassert 1 //A number must be nonzero\r\nassert !0\r\n\r\nassert new Object() //An object must be non-null\r\nassert !null",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:43:51.013",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691440960539_534559874",
+      "id": "paragraph_1691440960539_534559874",
+      "dateCreated": "2023-08-07 20:42:40.540",
+      "dateStarted": "2023-08-07 20:43:51.035",
+      "dateFinished": "2023-08-07 20:43:51.058",
+      "status": "FINISHED"
+    },
+    {
+      "text": "n \u003d (int)(1 / 2)\r\nassert n \u003d\u003d 0\r\nassert n.class \u003d\u003d Integer\r\nn \u003d 1.intdiv(2)\r\nassert n \u003d\u003d 0\r\nassert n.class \u003d\u003d Integer",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:44:35.802",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691440960512_1765706971",
+      "id": "paragraph_1691440960512_1765706971",
+      "dateCreated": "2023-08-07 20:42:40.512",
+      "dateStarted": "2023-08-07 20:44:35.829",
+      "dateFinished": "2023-08-07 20:44:35.853",
+      "status": "FINISHED"
+    },
+    {
+      "title": "Регулярные выражения",
+      "text": "// ~ - оператор шаблона (строка компилируется как шаблон)\r\np \u003d ~/\\b[a-zA-Z]\\b/\r\n\r\n// \u003d~ - оператор поиска (создает объект класса Matcher)\r\ndef matcher \u003d \"Groovy\" \u003d~ /G.*/\r\n//assert matcher in Matcher\r\nassert matcher.matches()\r\n\r\n// \u003d\u003d~ - оператор соответствия (соответствует ли строка шаблону)\r\nassert \"Groovy\" \u003d\u003d~ /G.*/\r\nassert 123 \u003d\u003d~ /\\d+/\r\nassert !123 \u003d\u003d~ /\\D+/",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:21:25.079",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691438732206_2074731912",
+      "id": "paragraph_1691438732206_2074731912",
+      "dateCreated": "2023-08-07 20:05:32.206",
+      "dateStarted": "2023-08-07 20:21:25.105",
+      "dateFinished": "2023-08-07 20:21:25.123",
+      "status": "FINISHED"
+    },
+    {
+      "text": "def text \u003d \"\"\"\r\nLorem 1:30 PM ipsum dolor 12:00 PM sit amet, consectetuer adipiscing elit.\r\n\"\"\"\r\n \r\ndef HOUR \u003d /10|11|12|[0-9]/\r\ndef MINUTE \u003d /[0-5][0-9]/\r\ndef AM_PM \u003d /AM|PM/\r\ndef time \u003d /($HOUR):($MINUTE) ($AM_PM)/\r\n\r\ndef matcher \u003d text \u003d~ time\r\nprintln matcher\r\nprintln ((text \u003d~ time).size())",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:18:24.273",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "java.util.regex.Matcher[pattern\u003d(10|11|12|[0-9]):([0-5][0-9]) (AM|PM) region\u003d0,76 lastmatch\u003d]\n2\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691439409620_1017756961",
+      "id": "paragraph_1691439409620_1017756961",
+      "dateCreated": "2023-08-07 20:16:49.620",
+      "dateStarted": "2023-08-07 20:18:24.293",
+      "dateFinished": "2023-08-07 20:18:24.312",
+      "status": "ABORT"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691439409586_2129805372",
+      "id": "paragraph_1691439409586_2129805372",
+      "dateCreated": "2023-08-07 20:16:49.586",
+      "status": "READY"
+    },
+    {
+      "text": "Упражнение:\nподойдет ли строка (имя файла) под регулярное выражение?",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:09:01.607",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691438895373_1733532103",
+      "id": "paragraph_1691438895373_1733532103",
+      "dateCreated": "2023-08-07 20:08:15.373",
+      "status": "READY"
+    },
+    {
+      "text": "fileName \u003d \u0027VISA_Clearing_Settlement_Advice_474578_20181113.csv.gz\u0027\nfileName \u003d \u002720170810000029_EP756.TXT\u0027\nfileName \u003d \u0027TT057T0.2017-08-03-22-30-04.001\u0027\n\nString text \u003d (fileName \u003d~ /.{16}(.{19}).{4}/)[0][1]\n",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:16:05.592",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691438941690_661028520",
+      "id": "paragraph_1691438941690_661028520",
+      "dateCreated": "2023-08-07 20:09:01.690",
+      "status": "READY"
+    },
+    {
+      "text": "fileName \u003d \u0027VISA_Clearing_Settlement_Advice_474578_20181113.csv.gz\u0027\nfileName \u003d \u002720170810000029_EP756.TXT\u0027\nfileName \u003d \u0027TT057T0.2017-08-03-22-30-04.001\u0027\nString text \u003d (fileName \u003d~ /.{8}(.{19}).{4}/)[0][1]",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:16:11.859",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691439188336_539021497",
+      "id": "paragraph_1691439188336_539021497",
+      "dateCreated": "2023-08-07 20:13:08.336",
+      "status": "READY"
+    },
+    {
+      "text": "fileName \u003d \u0027VISA_Clearing_Settlement_Advice_474578_20181113.csv.gz\u0027\nfileName \u003d \u002720170810000029_EP756.TXT\u0027\nfileName \u003d \u0027TT057T0.2017-08-03-22-30-04.001\u0027\ndateInName \u003d(fileName \u003d~ /.{43}(.{8}).{7}/)[0][1]",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:16:15.887",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691439224213_712219585",
+      "id": "paragraph_1691439224213_712219585",
+      "dateCreated": "2023-08-07 20:13:44.213",
+      "status": "READY"
+    },
+    {
+      "text": "s \u003d \"The quick brown fox jumps over the lazy dog\"\r\nassert s.tokenize() \u003d\u003d [\u0027The\u0027,\u0027quick\u0027,\u0027brown\u0027,\u0027fox\u0027,\u0027jumps\u0027,\u0027over\u0027,\u0027the\u0027,\u0027lazy\u0027,\u0027dog\u0027]\r\nassert s.tokenize() \u003d\u003d new StringTokenizer(s).collect{it}\r\ns1 \u003d \"The,quick*brown*fox,*jumps*over*the*lazy*dog\"\r\nassert s1.tokenize(\u0027,*\u0027) \u003d\u003d s.tokenize()",
+      "user": "anonymous",
+      "dateUpdated": "2023-08-07 20:50:43.439",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/undefined",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691441439424_562664185",
+      "id": "paragraph_1691441439424_562664185",
+      "dateCreated": "2023-08-07 20:50:39.424",
+      "dateStarted": "2023-08-07 20:50:43.463",
+      "dateFinished": "2023-08-07 20:50:43.492",
+      "status": "ABORT"
+    },
+    {
+      "user": "anonymous",
+      "progress": 0,
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1691441443462_1571817422",
+      "id": "paragraph_1691441443462_1571817422",
+      "dateCreated": "2023-08-07 20:50:43.462",
+      "status": "READY"
+    }
+  ],
+  "name": "lesson03 Syntax and Strings",
+  "id": "2J8BA6DJT",
+  "defaultInterpreterGroup": "groovy",
+  "version": "0.10.0",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
