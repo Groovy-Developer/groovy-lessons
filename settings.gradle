@@ -4,7 +4,15 @@ include('module-1')
 project(':module-1').projectDir = file('/module-1')
 project(':module-1').buildFileName = 'build.gradle'
 
+include('concurrency-examples')
+project(':concurrency-examples').projectDir = file('/module-1/concurrency-examples')
+project(':concurrency-examples').buildFileName = 'build.gradle'
+
 include('module-2')
 project(':module-2').projectDir = file('/module-2')
 project(':module-2').buildFileName = 'build.gradle'
+
+include('meta-programming')
+project(':meta-programming').projectDir = file('/module-2/meta-programming')
+project(':meta-programming').buildFileName = 'build.gradle'
 
