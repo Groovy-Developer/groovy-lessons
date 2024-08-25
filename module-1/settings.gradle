@@ -1,0 +1,6 @@
+rootProject.name = 'module-1'
+
+include('concurrency-examples')
+project(':concurrency-examples').projectDir = file('/module-1/concurrency-examples')
+project(':concurrency-examples').buildFileName = 'build.gradle'
+

@@ -1,0 +1,10 @@
+rootProject.name = 'groovy-lessons'
+
+include('module-1')
+project(':module-1').projectDir = file('/module-1')
+project(':module-1').buildFileName = 'build.gradle'
+
+include('module-2')
+project(':module-2').projectDir = file('/module-2')
+project(':module-2').buildFileName = 'build.gradle'
+
