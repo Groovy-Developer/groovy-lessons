@@ -16,6 +16,32 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
 
+/*subprojects {
+    group 'org.example'
+    version "${version}"
+
+    apply plugin: 'java'
+    apply plugin: 'groovy'
+    //apply from: "$rootProject.projectDir/tasks.gradle"
+    apply from: "$rootProject.projectDir/dependencies.gradle"
+
+    sourceCompatibility = 1.8
+    compileJava.enabled = false
+
+    ['src/main/java', 'src/main/groovy'].with {
+        sourceSets.main.groovy.srcDirs = it
+    }
+
+    ['src/test/java', 'src/test/groovy'].with {
+        sourceSets.test.groovy.srcDirs = it
+    }
+
+    task sourceJar(type: Jar) {
+        from sourceSets.main.groovy
+        classifier = 'sources'
+    }
+}*/
+
 test {
     useJUnitPlatform()
 }

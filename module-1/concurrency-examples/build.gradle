@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    //implementation lib.groovy_all
     implementation 'org.apache.groovy:groovy-all:4.0.22'
     implementation 'org.codehaus.gpars:gpars:1.2.1'
     testImplementation platform('org.junit:junit-bom:5.9.1')
