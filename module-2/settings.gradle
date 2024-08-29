@@ -1,6 +1,2 @@
 rootProject.name = 'module-2'
 
-include('meta-programming')
-project(':meta-programming').projectDir = file('/module-2/meta-programming')
-project(':meta-programming').buildFileName = 'build.gradle'
-
