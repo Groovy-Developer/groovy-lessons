@@ -16,3 +16,7 @@ include('meta-programming')
 project(':meta-programming').projectDir = file('/module-2/meta-programming')
 project(':meta-programming').buildFileName = 'build.gradle'
 
+include('decorator')
+project(':decorator').projectDir = file('/module-2/decorator')
+project(':decorator').buildFileName = 'build.gradle'
+
