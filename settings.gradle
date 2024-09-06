@@ -20,3 +20,7 @@ include('decorator')
 project(':decorator').projectDir = file('/module-2/decorator')
 project(':decorator').buildFileName = 'build.gradle'
 
+include('delegate')
+project(':delegate').projectDir = file('/module-2/delegate')
+project(':delegate').buildFileName = 'build.gradle'
+
