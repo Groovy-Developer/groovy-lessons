@@ -24,3 +24,27 @@ include('delegate')
 project(':delegate').projectDir = file('/module-2/delegate')
 project(':delegate').buildFileName = 'build.gradle'
 
+include('builder')
+project(':builder').projectDir = file('/module-2/builder')
+project(':builder').buildFileName = 'build.gradle'
+
+include('module-3')
+project(':module-3').projectDir = file('/module-3')
+project(':module-3').buildFileName = 'build.gradle'
+
+include('build-systems')
+project(':build-systems').projectDir = file('/module-3/build-systems')
+project(':build-systems').buildFileName = 'build.gradle'
+
+include('gradle-dsl')
+project(':gradle-dsl').projectDir = file('/module-3/gradle-dsl')
+project(':gradle-dsl').buildFileName = 'build.gradle'
+
+include('gradle-plugins')
+project(':gradle-plugins').projectDir = file('/module-3/gradle-plugins')
+project(':gradle-plugins').buildFileName = 'build.gradle'
+
+include('jenkins-dsl')
+project(':jenkins-dsl').projectDir = file('/module-3/jenkins-dsl')
+project(':jenkins-dsl').buildFileName = 'build.gradle'
+
