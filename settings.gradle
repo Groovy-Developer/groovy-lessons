@@ -28,6 +28,14 @@ include('builder')
 project(':builder').projectDir = file('/module-2/builder')
 project(':builder').buildFileName = 'build.gradle'
 
+include('ast-transformation')
+project(':ast-transformation').projectDir = file('/module-2/ast-transformation')
+project(':ast-transformation').buildFileName = 'build.gradle'
+
+include('gdsl')
+project(':gdsl').projectDir = file('/module-2/gdsl')
+project(':gdsl').buildFileName = 'build.gradle'
+
 include('module-3')
 project(':module-3').projectDir = file('/module-3')
 project(':module-3').buildFileName = 'build.gradle'
