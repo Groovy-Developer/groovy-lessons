@@ -1,4 +1,4 @@
-package org.example.ast
+package org.example
 
 import org.codehaus.groovy.transform.GroovyASTTransformationClass
 

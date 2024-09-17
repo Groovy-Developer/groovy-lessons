@@ -1,4 +1,6 @@
-package org.example.ast
+package org.example
+
+import org.example.Loggable
 
 class Tree {
 }
