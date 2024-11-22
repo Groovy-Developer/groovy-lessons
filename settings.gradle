@@ -63,4 +63,5 @@ project(':sql').buildFileName = 'build.gradle'
 //include('spring-groovy-config')
 //project(':spring-groovy-config').projectDir = file('/module-4/spring-groovy-config')
 //project(':spring-groovy-config').buildFileName = 'build.gradle'
+include 'module-5'
 
